@@ -1,9 +1,9 @@
 ## Objetivos
 
-[x] Ajudar no entendimento de escalas musicais
-[x] Formação de acordes
-[x] Ajudar no entendimento de campos harmônicos
-[x] Ajudar com progressões harmônicas
+- [x] Ajudar no entendimento de escalas musicais
+- [x] Formação de acordes
+- [x] Ajudar no entendimento de campos harmônicos
+- [x] Ajudar com progressões harmônicas
 
 ------------------------------------------------------
 
