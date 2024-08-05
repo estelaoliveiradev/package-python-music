@@ -6,3 +6,12 @@ edit_uri: 'tree/main/docs'
 theme:
   name: 'material'
   language: 'pt-BR'
+  logo: 'assets/logo2.svg'
+  favicon: 'assets/logo.svg'
+
+markdown_extensions:
+  - attr_list
+
+
+extra_css:
+  - stylesheets/extra.css
