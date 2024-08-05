@@ -1,0 +1,8 @@
+site_name: Notas e Campos Harmônicos
+repo_url: 'https://github.com/estelaoliveiradev/package-python-music?tab=readme-ov-file#objetivos'
+repo_name: 'estelinha/notas'
+edit_uri: 'tree/main/docs'
+
+theme:
+  name: 'material'
+  language: 'pt-BR'
