@@ -2,7 +2,7 @@
 name = "notas-musicais"
 version = "0.1.0"
 description = ""
-authors = ["estelaoli23 <estelaoliveirareato23@outlook.com>"]
+authors = ["estelaoliveiradev <estelaoliveirareato23@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -25,3 +25,17 @@ mkdocstrings-python = "^1.10.7"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini.options]
+pythonpath = "."
+addopts = "--doctest-modules" 
+
+[tool.isort]
+profile = "black"
+line_length = "79"
+
+[tool.taskipy.tasks]
+lint = "blue --check --diff . && isort --check . --diff"
+docs = "mkdocs serve"
+test = "pytest -s -x --cov=notas_musicais -vv"
+post_test = "coverage html"
